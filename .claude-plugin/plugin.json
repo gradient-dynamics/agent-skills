@@ -1,0 +1,15 @@
+{
+  "name": "gradient-dynamics",
+  "displayName": "Gradient Dynamics",
+  "version": "0.1.0",
+  "description": "Thermal and CFD simulation for cooling hardware (cold plates, heat sinks, battery packs, electronics): the Gradient Dynamics MCP server plus a skill for designing, estimating, meshing and simulating within a human-set budget.",
+  "author": {
+    "name": "Gradient Dynamics",
+    "url": "https://gradient-dynamics.com"
+  },
+  "homepage": "https://gradient-dynamics.com/docs/connect-claude.md",
+  "repository": "https://github.com/gradient-dynamics/agent-skills",
+  "keywords": ["thermal", "cfd", "heat-transfer", "cold-plate", "heat-sink", "battery", "electronics-cooling", "simulation", "mcp"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://gradient-dynamics.com/docs/quickstart-cold-plate.md"
+}

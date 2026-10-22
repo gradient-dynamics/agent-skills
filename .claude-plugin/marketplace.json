@@ -1,0 +1,14 @@
+{
+  "name": "gradient-dynamics",
+  "description": "Gradient Dynamics plugins for thermal and CFD simulation with AI agents.",
+  "owner": {
+    "name": "Gradient Dynamics"
+  },
+  "plugins": [
+    {
+      "name": "gradient-dynamics",
+      "source": "./",
+      "description": "Gradient Dynamics MCP server (OAuth) plus the thermal-simulation skill: template or upload, inspect, estimate cost, mesh, simulate, read quality flags."
+    }
+  ]
+}
