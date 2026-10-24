@@ -7,9 +7,9 @@
     "name": "Gradient Dynamics",
     "url": "https://gradient-dynamics.com"
   },
-  "homepage": "https://gradient-dynamics.com/docs/connect-claude.md",
+  "homepage": "https://docs.gradient-dynamics.com/connect/from-claude.html",
   "repository": "https://github.com/gradient-dynamics/agent-skills",
   "keywords": ["thermal", "cfd", "heat-transfer", "cold-plate", "heat-sink", "battery", "electronics-cooling", "simulation", "mcp"],
   "icon": "./assets/icon.png",
-  "documentationUrl": "https://gradient-dynamics.com/docs/quickstart-cold-plate.md"
+  "documentationUrl": "https://docs.gradient-dynamics.com/connect/quick-start-cold-plate.html"
 }

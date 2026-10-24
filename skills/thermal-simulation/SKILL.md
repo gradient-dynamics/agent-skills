@@ -242,5 +242,5 @@ internal to external) to get round a failure.
 | Results | `read_artifact_summary`, `view_simulation_result`, `assemble_simulation_viewer`, `get_artifact_download` |
 | Studies | `plan_geometry_study`, `submit_study`, `plan_cold_plate`, `compare_cold_plate_candidates` |
 
-Full reference: https://gradient-dynamics.com/docs/mcp-tools.md.
-Worked example: https://gradient-dynamics.com/docs/quickstart-cold-plate.md.
+Full reference: https://docs.gradient-dynamics.com/connect/mcp-tools.html.
+Worked example: https://docs.gradient-dynamics.com/connect/quick-start-cold-plate.html.
