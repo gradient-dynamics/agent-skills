@@ -23,7 +23,6 @@ It stops instead of looping when a run isn't funded or can't succeed.
 | `assets/icon.png` | Listing icon (1250×1250 logo) |
 | `plugin.json`, `mcp.json` | The [Agent Plugins](https://agent-plugins.org) manifest and server for OpenAI's plugin directory (ChatGPT and Codex). OpenAI's listing, test cases and commerce declaration are under `extensions.com.openai` |
 | `assets/composer-icon.png` | OpenAI composer icon (128×128, from the logo) |
-| `scripts/build_openai_plugin.py` | Checks the OpenAI manifest against the directory's rules and builds the upload ZIP in `dist/` |
 
 ## Install
 
@@ -88,13 +87,15 @@ headless setup.
 
 ## OpenAI plugin directory (ChatGPT and Codex)
 
-One listing covers ChatGPT and Codex. Build the upload ZIP with:
+One listing covers ChatGPT and Codex. The build script lives in the API repository
+(`api/scripts/build_openai_plugin.py`), because Claude's plugin directory refuses
+scripts in this repository. From the API repository, with this checkout next to it:
 
 ```sh
 python3 scripts/build_openai_plugin.py
 ```
 
-It checks `plugin.json` and `mcp.json` against OpenAI's rules (field lengths, icon
+Pass `--source PATH` if this checkout is somewhere else. It checks `plugin.json` and `mcp.json` against OpenAI's rules (field lengths, icon
 sizes, exactly 5 positive and 3 negative test cases, one HTTPS server with no
 headers, no credentials in the package) and writes
 `dist/gradient-dynamics-openai-<version>.zip`. While anything is missing it lists
