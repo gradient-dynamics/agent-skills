@@ -9,7 +9,11 @@
   },
   "homepage": "https://docs.gradient-dynamics.com/connect/from-claude.html",
   "repository": "https://github.com/gradient-dynamics/agent-skills",
+  "license": "MIT",
   "keywords": ["thermal", "cfd", "heat-transfer", "cold-plate", "heat-sink", "battery", "electronics-cooling", "simulation", "mcp"],
   "icon": "./assets/icon.png",
-  "documentationUrl": "https://docs.gradient-dynamics.com/connect/quick-start-cold-plate.html"
+  "documentationUrl": "https://docs.gradient-dynamics.com/connect/quick-start-cold-plate.html",
+  "supportUrl": "https://gradient-dynamics.com/support",
+  "privacyPolicyUrl": "https://gradient-dynamics.com/privacy",
+  "termsOfServiceUrl": "https://gradient-dynamics.com/terms"
 }
