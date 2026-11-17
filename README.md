@@ -29,8 +29,6 @@ It stops instead of looping when a run isn't funded or can't succeed.
 
 ### Claude Code plugin (skill plus MCP server)
 
-Once this repository is public on GitHub:
-
 ```text
 /plugin marketplace add gradient-dynamics/agent-skills
 /plugin install gradient-dynamics@gradient-dynamics
@@ -55,7 +53,7 @@ Copy `skills/thermal-simulation/` into your client's skills folder, for example
 the portable Agent Skills fields: `name`, `description`, `compatibility` and
 `metadata`.
 
-With the open `skills` CLI, once the repository is public:
+With the open `skills` CLI:
 
 ```sh
 npx skills add gradient-dynamics/agent-skills
@@ -67,8 +65,8 @@ headless setup.
 
 ## Status
 
-- **Not published.** This is a local repository with no remote. Nothing has been
-  pushed, submitted to a directory or published as a package.
+- **Public on GitHub (2026-11-17)** at `github.com/gradient-dynamics/agent-skills`.
+  Not yet submitted to Claude's or OpenAI's directory.
 - **Validated (2026-10-22, Claude Code 2.1.300):**
   - `claude plugin validate --strict .` passes for the marketplace and its plugin;
   - `claude plugin validate --strict .claude-plugin/plugin.json` passes;
@@ -77,11 +75,9 @@ headless setup.
     folder; description 718 of 1,024 characters.
 - **Directory-ready (2026-11-17):** MIT licence (`LICENSE`, `"license": "MIT"`), and
   support, privacy and terms URLs in `.claude-plugin/plugin.json`.
-  `claude plugin validate . --profile directory` passes.
-- **Before publishing, James must** create
-  `github.com/gradient-dynamics/agent-skills` (public) and push.
-
-  See `api/docs/directory-submission-checklist.md` in the API repository.
+  `claude plugin validate . --profile directory` passes, also on a fresh clone
+  from GitHub. The submission steps are in
+  `api/docs/directory-submission-checklist.md` in the API repository.
 - **Cursor** uses its own manifest (`.cursor-plugin/plugin.json` and `mcp.json`).
   That isn't included yet; the same `skills/` folder can be reused. The root
   `mcp.json` is now in Agent Plugins format, so check whether Cursor reads that
