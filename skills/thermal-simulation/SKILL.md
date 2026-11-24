@@ -59,8 +59,7 @@ Use it when the user wants to:
    - **Codex:** `[mcp_servers.gradient_dynamics]` with
      `url = "https://api.gradient-dynamics.com/mcp"`, then
      `codex mcp login gradient_dynamics`.
-   - **Headless:** an API key as `Authorization: Bearer …` from an environment
-     variable, or `gd login`.
+   - **Headless:** `gd login`, or an API key set up as described in all options.
    - **All options:** https://gradient-dynamics.com/llms.txt
 3. **Without signing in,** you can use discovery and estimates:
    `get_capabilities`, `list_templates`, `get_template`, `get_request_schema`,

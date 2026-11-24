@@ -39,11 +39,8 @@ connection.
 
 To try it from a local checkout, run `claude --plugin-dir ./agent-skills`.
 
-The plugin's server uses OAuth. To use an API key instead:
-
-1. Skip the plugin's server (toggle it off in `/mcp`).
-2. Add the server yourself with
-   `claude mcp add --transport http gradient-dynamics https://api.gradient-dynamics.com/mcp --header "Authorization: Bearer $GD_API_KEY"`.
+The plugin's server uses OAuth. To use an API key instead, see
+[Connect from Claude](https://docs.gradient-dynamics.com/connect/from-claude.html).
 
 ### The skill only (any Agent Skills client)
 
