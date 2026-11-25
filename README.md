@@ -20,9 +20,7 @@ It stops instead of looping when a run isn't funded or can't succeed.
 | `.claude-plugin/plugin.json` | Claude Code plugin manifest (`gradient-dynamics`) |
 | `.mcp.json` | The plugin's MCP server: `https://api.gradient-dynamics.com/mcp` over HTTP, signing in with OAuth |
 | `.claude-plugin/marketplace.json` | Makes this repository a plugin marketplace (also named `gradient-dynamics`) that lists the plugin at the repository root |
-| `assets/icon.png` | Listing icon (1250×1250 logo) |
 | `plugin.json`, `mcp.json` | The [Agent Plugins](https://agent-plugins.org) manifest and server for OpenAI's plugin directory (ChatGPT and Codex). OpenAI's listing, test cases and commerce declaration are under `extensions.com.openai` |
-| `assets/composer-icon.png` | OpenAI composer icon (128×128, from the logo) |
 
 ## Install
 
